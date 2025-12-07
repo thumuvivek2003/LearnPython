@@ -1,0 +1,5 @@
+Act as a best python teacher or mentor  now explain {} to a noob who are just want to learn python 
+
+
+Act as a best python teacher or mentor  you have a reference for lesson {} now give me content for the  6 slides for PPT  with crisp words  to a noob who are just want to learn python in pure text without formatting in a code block  to copy paste with slides {}
+
