@@ -1,0 +1,158 @@
+L1 
+Slide 1: Title Slide
+Python for Absolute Beginners
+A friendly introduction to programming
+Learn what Python is, why it’s popular, and write your first code
+
+Slide 2: What is Python?
+Python is a programming language
+It is like English for computers
+Easy to read, easy to write
+We use Python to tell the computer what to do
+
+Slide 3: Why Learn Python?
+Beginner-friendly
+Used in real life:
+• Apps and websites
+• Artificial Intelligence
+• Data science and automation
+• Games and robotics
+Huge community and lots of learning help
+Very powerful with many libraries
+
+Slide 4: Installing Python
+Go to python.org/downloads
+Click Download Python 3
+Check “Add Python to PATH”
+Install and open Python (IDLE, VS Code, or Terminal)
+
+Slide 5: Your First Python Code
+Type this in Python:
+print("Hello, Python!")
+Hit Enter or Run
+Computer prints the message on screen
+You just wrote your first program! 🎉
+
+Slide 6: What You Learned
+What Python is
+Why Python is useful
+How to install Python
+How to print your first message
+You are officially a Python beginner! 🚀
+
+
+Slide 1: What are Variables? • Variables are containers that store information • They have a name (label) and a value (data) • Used to remember and use data in programs • Example: age = 20 (age = container, 20 = value)
+
+
+
+Slide 2: How to Store Data • Write variable_name = value • The value can be a number, text, or True/False • Computer keeps the latest value if updated • Variables make programs dynamic and smart
+
+
+
+Slide 3: Data Types – int and float • int → Whole numbers (example: 10, 2025) • Used for counting or math • float → Decimal numbers (example: 3.14, 5.8) • Used for precision values like height or price
+
+
+
+Slide 4: Data Types – str and bool • str → Text inside quotes (example: "Hello") • Used for names, messages, etc. • bool → True or False • Used for decisions and conditions
+
+
+
+Slide 5: Checking Type & Changing Values • Use type(variable) to check data type • Variables can change anytime • score = 10 → score = 20 → score = score + 5 • Always latest value is stored
+
+
+
+Slide 6: Good Name Rules + Recap • No spaces in names (use _ instead) • Do not start names with numbers • Use meaningful names • Recap: Variables store data → int, float, str, bool → type() checks type → values can change → follow naming rules
+
+
+
+L3 
+Slide 1: Input & Output in Python
+• print() → Python speaks to you
+• input() → Python listens to you
+• Used for communication between user and program
+• Simple and most important part of Python for beginners
+
+Slide 2: Output using print()
+• print() shows messages or values on screen
+• Can display text, numbers, variables
+• Example: print("Hello!")
+• Python speaks to the user with print()
+
+Slide 3: Input using input()
+• input() takes typing from the user
+• Always gives result as a string (text)
+• Example: name = input("Enter your name: ")
+• Python listens to the user with input()
+
+Slide 4: Converting Input to Numbers
+• input() returns string → convert when needed
+• Convert to integer → int()
+• Convert to decimal → float()
+• Example: age = int(input("Enter your age: "))
+
+Slide 5: Make Your Print Beautiful + Mini Example
+• Use f-strings for clean output
+• Example: print(f"My name is {name}")
+• Mini program idea: ask name, age, city → show profile
+• Practice combining input + print every day
+
+
+
+L4
+Slide 1: Arithmetic Operators
+• Used for math in Python
+• + Add
+• – Subtract
+• * Multiply
+• / Divide
+• // Floor divide (no decimals)
+• % Remainder
+• ** Power
+• Example: 10 % 3 → 1
+
+Slide 2: Comparison Operators
+• Used to check values
+• Always give True or False
+• == Equal
+• != Not equal
+• > Greater than
+• < Less than
+• >= Greater or equal
+• <= Less or equal
+• Example: age >= 18 → True or False
+
+Slide 3: Logical Operators
+• Combine multiple conditions
+• and → Both must be True
+• or → Any one True is enough
+• not → Reverse True/False
+• Helps Python make decisions
+• Example: age > 18 and age < 60
+
+Slide 4: Assignment Operators
+• Store and update values
+• = assign value
+• x += 3 means x = x + 3
+• x -= 2 means x = x - 2
+• x *= 4 means x = x * 4
+• x /= 5 means x = x / 5
+• Used to keep changing data
+
+Slide 5: Using Operators for Decisions
+• Conditions control the program
+• if something is True → do this
+• else → do something else
+• Uses comparison + logical operators
+• Example idea: check age to vote
+• Example idea: check even or odd
+
+Slide 6: Real Mini Examples
+• Check voting
+If age >= 18 → print “You can vote”
+• Even number check
+If number % 2 == 0 → “Even”
+• Salary increase
+salary += 5000 → updated salary
+• Adult check
+age > 18 and age < 60 → “Adult”
+

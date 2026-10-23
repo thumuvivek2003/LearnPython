@@ -1,0 +1,618 @@
+Lesson 1: Introduction to Python Slide 1: What is Python? A programming language We use it to talk to computers Looks like simple English Easy to read and write print("Hello World") tells computer to show text
+
+Slide 2: Why Python? Easy for beginners Used in many fields Big community support Many ready-made libraries Python = Simple + Powerful
+
+Slide 3: Where is Python Used? Websites AI and Machine Learning Data Science Automation Games Cybersecurity Robotics
+
+Slide 4: Install Python (Quick) Visit python.org Download Python 3 Check: Add Python to PATH Install and finish Open IDLE or VS Code or Terminal
+
+Slide 5: First Code Ever print("Hello, Python!") Output: Hello, Python!
+
+Slide 6: What is print()? A function Shows things on screen Quotes mean text Display the message
+
+Slide 7: Run Your First Script Create hello.py Write: print("My first Python script!") Run using: python hello.py
+
+Slide 8: You Learned What Python is Why Python is popular Install and run Python Your first code print() function
+
+
+
+Lesson 2: Variables and Data Types Slide 1: What is a Variable? A container that stores information Example: age = 20
+
+Slide 2: Why Use Variables? Programs remember data like age, scores, names, prices
+
+Slide 3: Main Python Data Types int float str bool
+
+Slide 4: int Whole numbers Example: age = 21
+
+Slide 5: float Decimal numbers Example: height = 5.9
+
+Slide 6: str Text inside quotes Example: name = "Vivek"
+
+Slide 7: bool True or False values Example: is_student = True
+
+Slide 8: All Together name = "Vivek" age = 21 height = 5.8 is_student = True
+
+Slide 9: Check Data Type Use type() Example: print(type(x))
+
+Slide 10: Change Variable Value score = 10 score = score + 5
+
+Slide 11: Common Mistakes No spaces in variable names Cannot start with a number
+
+Slide 12: Quick Revision Variable = container 4 main data types type() Good naming rules
+
+
+
+Lesson 3: Input and Output Slide 1: What is I/O? Input: user gives data Output: show result print() and input()
+
+Slide 2: print() Shows text, numbers, variables Example: print("Hello!")
+
+Slide 3: Print Example print("My name is", name)
+
+Slide 4: input() Get input from user Example: name = input("Enter name:")
+
+Slide 5: input() gives string Convert using int() or float() Example: age = int(input())
+
+Slide 6: Mini Calculation a = int(input()) b = int(input()) print(a + b)
+
+Slide 7: Formatting Output Use f-strings Example: print(f"{name} is {age}")
+
+Slide 8: Mini Project Take name, age, city as input Print formatted profile
+
+Slide 9: Quick Recap print() input() Convert input for math Use f-strings
+
+
+
+Lesson 4: Operators and Expressions Slide 1: What are Operators? Symbols that perform actions
+
+Slide 2: Arithmetic Operators
+
+    - / // % \*\* 
+
+Slide 3: Comparison Operators == != > < >= <= Returns True or False
+
+Slide 4: Logical Operators and or not
+
+Slide 5: Assignment Operators = += -= *= /=
+
+Slide 6: Mini Examples Voting check Even number check Salary update
+
+Slide 7: Quick Recap Arithmetic Comparison Logical Assignment
+
+
+
+Lesson 5: Conditional Statements Slide 1: Conditional Statements Python making decisions
+
+Slide 2: Why Conditions? Programs react to situations
+
+Slide 3: if if condition: action
+
+Slide 4: Example age = 20 if age >= 18: print("Adult")
+
+Slide 5: else if condition: action else: other action
+
+Slide 6: elif Multiple conditions
+
+Slide 7: Example Grading if marks >= 90: print("A") elif marks >= 75: print("B") else: print("C or Fail")
+
+Slide 8: Rules Indentation needed Conditions True or False Only one else Many elif
+
+Slide 9: Examples to Practice Positive or negative check Even or odd check
+
+Slide 10: Nested if if inside another if
+
+Slide 11: Mini Project ATM Choice and balance check
+
+Slide 12: Summary if first check elif more options else final option
+
+
+
+Lesson 6: Loops Slide 1: What are Loops? Repeat actions automatically
+
+Slide 2: Two Types for loop while loop
+
+Slide 3: for Loop Repeat for known count Example: for i in range(5): print(i)
+
+Slide 4: while Loop Repeat until condition false Example: while x < 5: x += 1
+
+Slide 5: Loop Uses Counting Repetition Reading multiple inputs
+
+Slide 6: Break Stop loop early
+
+Slide 7: Continue Skip current step Go to next
+
+Slide 8: Mini Examples Table printing Sum of numbers
+
+Slide 9: Quick Recap for = known repeats while = condition repeats break and continue
+
+Lesson 6 (continued): Loop Examples
+Slide 7: for Loop Examples
+for i in range(1, 6): print(i)
+for ch in "python": print(ch)
+
+Slide 8: Looping a List
+fruits = ["apple", "banana", "mango"]
+for f in fruits: print(f)
+
+Slide 9: while Loop Format
+while condition: do something
+Runs as long as condition is True
+
+Slide 10: while Loop Example
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+Do not forget update to avoid infinite loops
+
+Slide 11: Countdown Example
+i = 5
+while i > 0:
+    print(i)
+    i -= 1
+
+Slide 12: for vs while
+for loop: know number of repeats
+while loop: repeat until stop condition
+
+Slide 13: Common Mistakes
+Forgetting update value
+Wrong indentation
+Infinite loops
+
+Slide 14: Practice
+Print even numbers 2 to 10
+for i in range(2, 11, 2): print(i)
+
+Slide 15: Takeaways
+Loops repeat actions
+for = fixed count
+while = condition-based
+range helps counting
+Avoid infinite loops
+
+Lesson 7: Strings
+Slide 1: What is a String?
+Text inside quotes
+Example: name = "Vivek"
+
+Slide 2: Strings are characters in order
+Index starts at 0
+
+Slide 3: Access characters
+text[0], text[3]
+
+Slide 4: Slicing
+Pick part of string
+s[0:2], s[::-1]
+
+Slide 5: String Functions
+upper, lower, title, strip, replace, split, join
+
+Slide 6: String Formatting
+Use f-strings
+print(f"I am {name}, {age}")
+
+Slide 7: Practice
+Reverse text
+Count vowels
+Check length using len()
+
+Slide 8: Summary
+Text handling
+Indexing
+Slicing
+Functions
+Formatting
+
+Lesson 8: Lists
+Slide 1: What is a List?
+Multiple values in one variable
+
+Slide 2: Creating Lists
+numbers = [10,20,30]
+mixed = [10,"hi",3.5,True]
+
+Slide 3: Indexing starts at 0
+Example: fruits[0]
+
+Slide 4: Negative Indexing
+fruits[-1]
+
+Slide 5: Slicing Lists
+fruits[1:3]
+
+Slide 6: Mutable
+fruits[1] = "kiwi"
+
+Slide 7: Methods
+append, remove, pop, sort, count, extend
+
+Slide 8: Looping
+for f in fruits: print(f)
+
+Slide 9: Item Exists Check
+if "apple" in fruits: print("Found")
+
+Slide 10: Length
+len(fruits)
+
+Slide 11: Practice
+Print numbers
+Add user input
+Find max number
+
+Slide 12: Summary
+Create, access, modify lists
+Loop and methods
+Check members
+
+Lesson 9: Tuples and Sets
+Slide 1: Tuples vs Sets
+Tuple: immutable, ordered, allows duplicates
+Set: mutable, unordered, no duplicates
+
+Slide 2: Tuples
+Fixed list using ()
+student = ("Vivek",21)
+
+Slide 3: Purpose
+Safe data, faster access
+
+Slide 4: Accessing Tuples
+numbers[0]
+
+Slide 5: Tuple Methods
+count and index
+
+Slide 6: Unpacking
+name, age, country = student
+
+Slide 7: Sets
+Unique elements using {}
+nums = {1,2,3}
+
+Slide 8: Modify Set
+add, remove, discard
+
+Slide 9: Set Operations
+Union, intersection, difference, symmetric difference
+
+Slide 10: Use Cases
+Remove duplicates
+Fast membership check
+
+Slide 11: Summary
+Tuple: fixed and ordered
+Set: unique and unordered
+
+Lesson 10: Dictionaries
+Slide 1: Dictionaries
+Key-value data storage
+
+Slide 2: Format
+key: value pairs
+student = {"name":"Vivek","age":21}
+
+Slide 3: Access Values
+student["name"]
+
+Slide 4: Add or Update
+student["grade"] = "A"
+
+Slide 5: Delete
+del student["age"]
+student.pop("name")
+student.clear()
+
+Slide 6: Methods
+keys, values, items, get
+
+Slide 7: Looping
+for key in student
+for value in student.values()
+for key,value in student.items()
+
+Slide 8: Nested Dictionary
+students = {1:{"name":"Vivek"}}
+
+Slide 9: List vs Dictionary
+List: index based, similar data
+Dict: key based, mapped data
+
+Slide 10: Example
+contacts = {"Vivek":"98765"}
+
+Slide 11: Summary
+Key-value storage
+CRUD operations
+Fast lookup
+Nested data
+
+
+Lesson 11: Functions
+Slide 1: What is a Function?
+Reusable block of code
+Avoid repeating code
+Organized and clean program
+
+Slide 2: Writing a Function
+def greet():
+    print("Hello!")
+greet()
+
+Slide 3: Why Use Functions?
+Reuse code
+Easy update
+Save time
+Better structure
+
+Slide 4: Parameters
+def greet(name):
+    print("Hello", name)
+greet("Amit")
+
+Slide 5: Multiple Parameters
+def add(a, b):
+    print(a + b)
+add(3, 7)
+
+Slide 6: return Statement
+def add(a, b):
+    return a + b
+
+Slide 7: Using Return Value
+result = add(5, 2)
+print(result)
+
+Slide 8: Default Parameters
+def greet(name="Guest"):
+    print("Hello", name)
+greet()
+
+Slide 9: Keyword Arguments
+def intro(name, age):
+    print(name, age)
+intro(age=20, name="Aman")
+
+Slide 10: Multiple Return Values
+def calc(a, b):
+    return a+b, a-b, a*b
+
+Slide 11: Scope
+Local and global variables
+x = 100
+def show():
+    print(x)
+
+Slide 12: Mini Examples
+Simple calculator
+Even or odd check
+Vowel count
+Login check
+
+Slide 13: Summary
+Functions reuse code
+Parameters take input
+Return gives output
+Default and keyword arguments
+Local vs global scope
+
+Slide 14: Next
+Modules and libraries
+
+Lesson 12: Error Handling
+Slide 1: What is an Error?
+Mistake during running program
+Stops program
+
+Slide 2: Why Handle Errors?
+Prevent crashing
+Show friendly messages
+Professional code
+
+Slide 3: Basic try except
+try:
+    risky code
+except:
+    handle error
+
+Slide 4: Wrong Input Example
+try:
+    num = int(input())
+except:
+    print("Invalid input")
+
+Slide 5: Specific Errors
+ValueError
+ZeroDivisionError
+
+Slide 6: else Block
+Runs if no error
+
+Slide 7: finally Block
+Runs always
+
+Slide 8: raise Error
+raise ValueError("Wrong")
+
+Slide 9: Real Uses
+Safe division
+Safe input
+File handling
+
+Slide 10: Summary
+Try except else finally
+Raise custom errors
+
+Slide 11: Next
+File handling
+
+Lesson 13: File Handling
+Slide 1: File Handling
+Store data permanently
+
+Slide 2: Use
+Save notes, scores, user data
+
+Slide 3: Open File
+open("file", "mode")
+Modes: r w a x r+
+
+Slide 4: Write File
+file = open("data.txt","w")
+file.write("Hello")
+file.close()
+
+Slide 5: Append File
+file = open("data.txt","a")
+file.write("New")
+file.close()
+
+Slide 6: Read File
+file = open("data.txt","r")
+print(file.read())
+file.close()
+
+Slide 7: Read Methods
+read, readline, readlines
+
+Slide 8: with Keyword
+Auto close file
+
+Slide 9: Handle Missing File
+try:
+    open file
+except FileNotFoundError
+
+Slide 10: Save Input
+with open("users.txt","a") as f:
+    f.write(input() + "\n")
+
+Slide 11: Mini Projects
+Read and write notes
+Count lines
+Search word
+Save scores
+
+Slide 12: Summary
+Open
+Read
+Write
+Append
+with for safety
+
+Slide 13: Next
+OOP
+
+Lesson 14: Modules and Libraries
+Slide 1: Modules and Libraries
+Ready-made tools
+
+Slide 2: Module
+Python file with functions and classes
+
+Slide 3: Import Module
+import math
+from math import sqrt
+import math as m
+
+Slide 4: math Module
+math.sqrt
+math.pi
+
+Slide 5: random Module
+random.randint
+
+Slide 6: datetime Module
+datetime.now
+
+Slide 7: os Module
+os.listdir
+
+Slide 8: External Libraries
+pip install library_name
+
+Slide 9: Own Module
+def add(a,b):
+    return a+b
+import mymath
+
+Slide 10: Practice
+Dice roll
+Today date
+
+Slide 11: Why Use Libraries?
+Faster
+Powerful
+Industry use
+
+Slide 12: Summary
+Modules and imports
+Built-in and external
+Own modules
+
+Slide 13: Next
+OOP basics
+
+Lesson 15: OOP Basics
+Slide 1: What is OOP?
+Programs using objects
+
+Slide 2: Object
+Attributes and methods
+
+Slide 3: Class vs Object
+Class: blueprint
+Object: real thing
+
+Slide 4: Create Class
+class Person:
+    pass
+
+Slide 5: Attributes and Methods
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def greet(self):
+        print("Hello",self.name)
+
+Slide 6: Create Objects
+p1 = Person("Vivek",21)
+
+Slide 7: Use Methods
+p1.greet()
+
+Slide 8: Important Terms
+__init__ constructor
+self current object
+
+Slide 9: Car Example
+class Car:
+    def __init__(self,brand):
+        self.brand=brand
+    def start(self):
+        print(self.brand,"starting")
+
+Slide 10: Change Attribute
+p1.age = 30
+
+Slide 11: Why OOP?
+Organize code
+Less repetition
+Real-world mapping
+
+Slide 12: Practice
+Student pass fail
+Bank deposit withdraw
+Dog bark
+
+Slide 13: Summary
+Classes and objects
+Attributes and methods
+Constructor
+
+Slide 14: Next
+Inheritance
+
+
